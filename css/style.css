@@ -1,0 +1,20 @@
+body {
+    margin-top: 250px;
+    margin-left: 450px;
+    background-image: url("../images/blue.jpg");
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    font-family: Nunito, sans-serif;
+    font-size: 40px;
+    color: dodgerblue;
+    margin-left: 260px;
+    margin-top: -230px;
+}
+@media(max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+}
